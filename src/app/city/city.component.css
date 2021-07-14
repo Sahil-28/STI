@@ -1,0 +1,14 @@
+hr {
+    width: 90%;
+    background-color: black;
+    
+  }
+
+.button{
+    position: fixed;
+    
+    bottom:0;
+    left: 370px;
+    margin-bottom: 40px;
+    
+}

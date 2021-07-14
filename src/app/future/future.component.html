@@ -1,0 +1,21 @@
+<div class="primary">
+   
+    
+    <div *ngFor="let forecast of futureData">
+        <div class="date">
+            {{ forecast.dt_txt | date: 'dd'}}
+        </div>
+        <div class="day">
+            {{ forecast.dt_txt | date: 'EEE'}}
+        </div>
+        <div>
+            <img src="assets/{{ forecast.weather[0].icon }}.png" class="image" alt="icon">
+        </div>
+        
+        <div class="temp">
+            {{ forecast.main.temp | number:'1.0-0'}}C
+        </div>
+        
+    </div>
+   
+</div>

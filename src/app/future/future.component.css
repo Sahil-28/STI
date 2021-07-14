@@ -1,0 +1,21 @@
+.primary {
+    display: flex;
+    margin-top: 50px;
+}
+
+
+.image{
+    margin-left: 5px;
+}
+
+.date{
+    margin-left: 20px;
+}
+
+.day{
+    margin-left: 20px;
+}
+
+.temp{
+    margin-left: 20px;
+}

@@ -1,0 +1,234 @@
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 600px;
+    outline:1px solid black;
+    
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    column-gap: 20px;
+    width: 100%;
+  }
+
+  .flex {
+    margin-top:50px;
+      display: flex;
+      justify-content: space-between;
+  }
+
+  /* .col-md-6{
+      width: 50%;
+  }
+  .col-md-12 {
+    outline:1px solid black;
+    height: 600px;
+  } */
+
+  .row .col-md-6:first-child>.padding-pls {
+    width: 300px;
+    height:600px;
+    outline:1px solid black;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  .row .col-md-6:last-child>.padding-pls {
+    width: 500px;
+    height:600px;
+    outline:1px solid black;
+    display: inline-block;
+    margin-top: 20px;
+    padding-top: 0px;
+  }
+  
+  .refreshButton{
+    display: inline-block;
+    margin-left: 460px;
+    bottom:0px;
+    top:22px;
+    position: fixed;
+}
+
+.alignment{
+  float: right;
+  margin-right: 150px;
+  display: inline;
+  
+}
+
+.image{
+  width: 150px;
+  height: 150px;
+  display: inline;
+}
+
+.input{
+  border-color: transparent;
+  box-shadow: 10px 5px 5px gray;
+  padding:5px;
+  width: 250px;
+  
+}
+
+hr {
+  width: 90%;
+  border-top: 2px solid black;
+  background-color: black;
+  
+}
+
+.button{
+  border: 0;
+  background-color: transparent;
+  font-size: 30px;
+  
+}
+
+@media screen and (max-width: 600px) {
+  .displayResponsive {
+    display: block;
+  }
+  .column {
+    float: left;
+    
+    padding: 10px;
+    height: 600px;
+    outline:1px solid black;
+    
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    column-gap: 5px;
+    width: 10%;
+  }
+  .row .col-md-6:first-child>.padding-pls {
+    width: 10px;
+    height:100px;
+    outline:1px solid black;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  .row .col-md-6:last-child>.padding-pls {
+    width: 10px;
+    height:100px;
+    outline:1px solid black;
+    display: inline-block;
+    margin-top: 20px;
+    padding-top: 0px;
+  }
+  .refreshButton{
+    display: inline-block;
+    margin-left: 250px;
+    bottom:0px;
+    top:22px;
+    position: fixed;
+}
+
+.alignment{
+  float: right;
+  margin-right: 150px;
+  display: inline;
+  
+}
+
+.image{
+  width: 50px;
+  height: 50px;
+  display: inline;
+}
+
+.input{
+  border-color: transparent;
+  box-shadow: 10px 5px 5px gray;
+  padding:5px;
+  width: 250px;
+  
+}
+
+hr {
+  width: 90%;
+  border-top: 2px solid black;
+  background-color: black;
+  
+}
+
+.button{
+  border: 0;
+  background-color: transparent;
+  font-size: 30px;
+  
+}
+}
+
+@media screen and (max-width: 900px) {
+  .displayResponsive {
+    display: block;
+  }
+  .row .col-md-6:first-child>.padding-pls {
+    width: 200px;
+    height:600px;
+    outline:1px solid black;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  .row .col-md-6:last-child>.padding-pls {
+    width: 400px;
+    height:600px;
+    outline:1px solid black;
+    display: inline-block;
+    margin-top: 20px;
+    padding-top: 0px;
+  }
+
+  .refreshButton{
+    display: inline-block;
+    margin-left: 360px;
+    bottom:0px;
+    top:22px;
+    position: fixed;
+}
+
+.alignment{
+  float: right;
+  margin-right: 100px;
+  display: inline;
+  
+}
+
+.image{
+  width: 100px;
+  height: 100px;
+  display: inline;
+}
+
+.input{
+  border-color: transparent;
+  box-shadow: 10px 5px 5px gray;
+  padding:5px;
+  width: 160px;
+  
+}
+
+hr {
+  width: 90%;
+  border-top: 2px solid black;
+  background-color: black;
+  
+}
+
+.button{
+  border: 0;
+  background-color: transparent;
+  font-size: 30px;
+  
+}
+
+}
+
