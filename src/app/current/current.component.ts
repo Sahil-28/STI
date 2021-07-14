@@ -12,7 +12,6 @@ import { NgForm } from '@angular/forms';
 export class CurrentComponent implements OnInit {
 
   cities: City[] = new Array<City>();
-  city!: City;
   currentLocation: any;
   temperature: any
   desc: any;
@@ -30,12 +29,6 @@ export class CurrentComponent implements OnInit {
     this.weatherSearchForm = this.formBuilder.group({
         location:['']
     });
-    // this.weatherForecastService.getWeatherData().subscribe(
-    //   val => {
-    //     this.getCurrentData(val);
-    //     console.log(val);
-    //   }
-    // )
   }
 
   getCurrentData(data: any) {
@@ -72,7 +65,6 @@ export class CurrentComponent implements OnInit {
       }
       },err => alert('City is not valid '));
       this.isValid = false;
-      
   }
 
   deleteCity(id: number){
@@ -87,10 +79,4 @@ export class CurrentComponent implements OnInit {
         console.log('the data is' + JSON.stringify(this.weatherData));
       });
   }
-
-  // onSubmit(form: NgForm){
-  //   this.result = this.weatherForecastService.addLocations(form.value);
-  //   console.log('the result is ' + this.result);
-  // }
-
 }

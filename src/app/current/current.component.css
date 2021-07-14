@@ -88,18 +88,11 @@ hr {
   
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
   .displayResponsive {
     display: block;
   }
-  .column {
-    float: left;
-    
-    padding: 10px;
-    height: 600px;
-    outline:1px solid black;
-    
-  }
+
 
   .row:after {
     content: "";
@@ -109,15 +102,15 @@ hr {
     width: 10%;
   }
   .row .col-md-6:first-child>.padding-pls {
-    width: 10px;
-    height:100px;
+    width: 50px;
+    height:300px;
     outline:1px solid black;
     display: inline-block;
     margin-top: 20px;
   }
   .row .col-md-6:last-child>.padding-pls {
-    width: 10px;
-    height:100px;
+    width: 100px;
+    height:300px;
     outline:1px solid black;
     display: inline-block;
     margin-top: 20px;
@@ -148,7 +141,7 @@ hr {
   border-color: transparent;
   box-shadow: 10px 5px 5px gray;
   padding:5px;
-  width: 250px;
+  width: 50px;
   
 }
 
@@ -162,12 +155,12 @@ hr {
 .button{
   border: 0;
   background-color: transparent;
-  font-size: 30px;
+  font-size: 10px;
   
 }
 }
 
-@media screen and (max-width: 900px) {
+@media (min-width: 481px) and (max-width: 900px) {
   .displayResponsive {
     display: block;
   }

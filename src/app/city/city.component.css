@@ -12,3 +12,26 @@ hr {
     margin-bottom: 40px;
     
 }
+
+@media (min-width: 481px) and (max-width: 900px)  {
+    .button{
+        position: fixed;
+        
+        bottom:0;
+        left: 230px;
+        margin-bottom: 40px;
+        
+    }
+}
+
+
+@media (max-width: 480px)  {
+    .button{
+        position: fixed;
+        
+        bottom:0;
+        left: 150px;
+        margin-bottom: 40px;
+        
+    }
+}
